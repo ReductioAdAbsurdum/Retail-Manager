@@ -14,8 +14,8 @@ namespace RMDataManager.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            string userId = RequestContext.Principal.Identity.GetUserId();
-            return new string[] { "User identification:", userId } ;
+            string userId = RequestContext.Principal.Identity.GetUserId();          
+            return new string[] { "User identification: " + userId };
         }
 
         // GET api/values/5
