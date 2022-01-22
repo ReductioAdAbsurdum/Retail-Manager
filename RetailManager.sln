@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32002.261
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMDataManager", "RMDataManager\RMDataManager.csproj", "{E8ECD339-A43C-475D-B400-4BD12AA4F5DC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RmSql", "RmSql\RmSql.sqlproj", "{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{E8ECD339-A43C-475D-B400-4BD12AA4F5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8ECD339-A43C-475D-B400-4BD12AA4F5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8ECD339-A43C-475D-B400-4BD12AA4F5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AED693-CCDF-426B-8F09-27DDA7CE0B5F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
