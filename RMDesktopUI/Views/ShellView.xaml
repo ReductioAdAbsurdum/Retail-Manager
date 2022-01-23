@@ -4,9 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RMDesktopUI.Views"
-        mc:Ignorable="d"
+        mc:Ignorable="d" FontSize="18"
         Title="ShellView" Height="450" Width="800">
-    <Grid>
+    <DockPanel>
         
-    </Grid>
+        <Menu DockPanel.Dock="Top" FontSize="18">
+            <MenuItem Header="_File"/>
+            <MenuItem Header="_Account">
+                <MenuItem x:Name="LoginScreen" Header="_Login"></MenuItem>
+            </MenuItem>
+        </Menu>
+        
+        <Grid>
+            <ContentControl x:Name="ActiveItem" Margin="5"/>
+        </Grid>
+        
+    </DockPanel>
 </Window>
